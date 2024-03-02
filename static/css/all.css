@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+.borde {
+    border: solid 1px black !important;
+}
+.c {
+    text-align: center !important;
+}
+.r {
+    border-radius: 10px;
+}
+.just {
+    text-align: justify;
+}
+.logi {
+    color: #fefeff;
+}
+.logi:hover {
+    color: #c1c1f8;
+}
+.atag {
+    color: #f6f6f7;
+    text-decoration: none;
+}
+.atag1 {
+    color: black;
+    text-decoration: none;
+}
+.sectionback {
+    background-color: #39a900;
+    color: #494f56;
+}
+
+.backs{
+    border-radius: 2rem;
+    padding-top: 3rem;
+    color: black;
+    background: #63f719;
+}
+.btn-color2{
+    color: aliceblue;
+    background:#39A900;
+    border-color: #39A900;
+}
+.btn-color2:hover{
+    color: aliceblue;
+    background:#58595b;
+    border-color: #58595b;
+}
+
+
+/* Counterdown */
+.marco {
+    background-color: #39a900;
+    color: #FBFBE2;
+    border-radius: 15px;
+}
+.objetivstit {
+    color: #39a900;
+}
+.objetivs {
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.mbup {
+    margin-top: -15%;
+}
+.mbuplett {
+    color: #FBFBE2;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.0rem;
+    font-weight: 300;
+}
+.colfond {
+    background-color: rgba(57, 169, 0, 0.3)
+}
+.imgobj {
+    width: 50%;
+}
+.imgobj1 {
+    width: 100%;
+}
+.imgbutt {
+    width: 100%;
+    border-radius: 7px;
+}
+
+/* MAPA */
+.maptxt {
+    margin: auto;
+}
+.imgmap {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* EQUIPO COMUNICACION */
+.imgcomm {
+    width: 100%;
+    border-radius: 50%;
+    border: 13px solid rgb(57, 169, 0, 0.4);
+}
+nosotros .nosotros {
+    background-image: url('/static/img/imgns/vector3.jpg');
+    background-size: cover;
+}
+
+/* Contact */
+.contact {
+    background-color: #39a900;
+    color: #FBFBE2;
+    margin-top: 20px;
+}
+.imgred {
+    width: 80px;
+    padding: 10px;
+}
+.imgicont {
+    width: 100px;
+    padding: 10px;
+}
+.imgform {
+    width: 150px;
+}
+
+
+/* back-to-top */
+.backtotop {
+    width: 40pt;
+    height: auto;
+    position: fixed;
+    bottom: 4.50rem;
+    right: 1.75rem;
+    z-index: 999;
+}
+.backtotop:hover {
+    color: transparent;
+    background-color: transparent;
+}
