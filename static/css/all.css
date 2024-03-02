@@ -28,7 +28,7 @@
 }
 .sectionback {
     background-color: #39a900;
-    color: #494f56;
+    color: #f6f6f7;
 }
 
 .backs{
@@ -85,6 +85,9 @@
 .imgbutt {
     width: 100%;
     border-radius: 7px;
+}
+.imgbann{
+    width: 30%;
 }
 
 /* MAPA */

@@ -128,9 +128,23 @@ def term6():
 
 @app.route('/virtual')
 def virtual():
+    presencial
     title = "Cursos Virtuales"
     return render('virtual.html', title=title)
 
+
+@app.route('/presencial')
+def presencial():
+    
+    title = "Cursos Presenciales"
+    return render('presencial.html', title=title)
+
+
+@app.route('/galeria')
+def galeria():
+    
+    title = "Galery"
+    return render('galeria.html', title=title)
 
 
 if __name__ == '__main__':

@@ -91,3 +91,16 @@ container{
     height: 150px;
     align-self: center;
 }
+.imgcardback1{
+    width: 150px;
+    height: 200px;
+    align-self: center;
+    
+}
+.galery1{
+    width: 100%;
+    height: auto;
+    align-self: center;
+    box-shadow: 0 5px 13px #000;
+}
+
