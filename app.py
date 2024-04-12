@@ -1,24 +1,7 @@
 import os, json
 from flask import Flask, render_template as render, request, flash, redirect, url_for
 
-# SENA = True for production
-SENA = True
-
-if SENA:
-    with open("/home/gabriel/prog/json_config/bilingual.json") as config_file:
-        config = json.load(config_file)
-    debug=True
-    host="localhost"
-    port=5000
-else:
-    with open("/etc/bilingual.json") as config_file:
-        config = json.load(config_file)
-    debug=False
-    host="172.16.XXX.XX"
-    port=8080
-
 app = Flask(__name__, static_folder='static')
-app.config['SECRET_KEY'] = config['SECRET_KEY']
 
 
 @app.route('/', methods=['GET', 'POST'])
@@ -183,8 +166,6 @@ def vocabulary():
     return render('vocabulary.html', title=title)
 
 
-
-
 if __name__ == '__main__':
-    app.run(debug=debug, host=host, port=port)
+    app.run(debug=True, port=8080)
 
