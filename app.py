@@ -37,6 +37,7 @@ def test():
 
 @app.route('/biblio')
 def biblio():
+    
     title = "Biblioteca Digital SENA"
     return render('biblio.html', title=title)
 
@@ -145,6 +146,43 @@ def galeria():
     
     title = "Galery"
     return render('galeria.html', title=title)
+
+
+@app.route('/portafolio')
+def portafolio():
+    
+    title = "Portafolio Bilinguismo"
+    return render('portafolio.html', title=title)
+
+
+@app.route('/diccionary')
+def diccionary():
+    
+    title = "Dictionaries"
+    return render('diccionary.html', title=title)
+
+
+@app.route('/aplica')
+def aplica():
+    
+    title = "Aplicaciones"
+    return render('aplica.html', title=title)
+
+
+@app.route('/games')
+def games():
+    
+    title = "Games"
+    return render('games.html', title=title)
+
+
+@app.route('/vocabulary')
+def vocabulary():
+    
+    title = "Vocabulary"
+    return render('vocabulary.html', title=title)
+
+
 
 
 if __name__ == '__main__':

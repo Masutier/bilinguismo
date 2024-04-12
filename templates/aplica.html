@@ -1,0 +1,42 @@
+{% extends 'layout.html' %}
+{% block title %}{{title}}{% endblock %}
+
+{% block content %}
+
+<div class="col-md-12 mx-auto pt-2">
+    <h2 class=" mt-4 c">Aplicaciones</h2>
+
+    <div class="row row-cols-1 row-cols-md-4 g-4 mb-5">
+        <div class="col">
+            <div class="cards" style="width: 14rem;">
+                <a href="https://es.duolingo.com/" target="_blank">
+                    <img class="imgobj1" src="static/img/img/diccion/Duolingo-Logo.png" alt="duolingo">
+                </a>
+            </div>
+        </div>
+        <div class="col">
+            <div class="cards" style="width: 17rem;">
+                <a href="https://www.britishcouncil.es/ingles/aprender-online/apps" target="_blank">
+                    <img class="imgobj1" src="static/img/img/diccion/british council.png" alt="britishcouncil">
+                </a>
+            </div>
+        </div>
+        <div class="col">
+            <div class="cards" style="width: 17rem;">
+                <a href="https://elsaspeak.com/en/" target="_blank">
+                    <img class="imgobj1" src="static/img/img/diccion/elsa.jpg" alt="elsa">
+                </a>
+            </div>
+        </div>
+        <div class="col">
+            <div class="cards" style="width: 17rem;">
+                <a href="https://www.busuu.com/es?cjevent=7ca826ee3bbe11eb83e601dc0a24060b" target="_blank">
+                    <img class="imgobj1" src="static/img/img/diccion/busuu-review.jpg" alt="busuu">
+                </a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+{% endblock %}

@@ -104,3 +104,10 @@ container{
     box-shadow: 0 5px 13px #000;
 }
 
+.cards{
+    position: relative;
+    width: 250px;
+    height: 355px;
+
+    margin: 30px;
+}
